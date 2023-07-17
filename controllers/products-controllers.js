@@ -17,4 +17,4 @@ const newProduct = (id, name, price, imgUrl) => {
 
 const products = document.querySelector("[data-product]");
 
-listProducts()
+listProducts();
