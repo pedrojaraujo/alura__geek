@@ -18,9 +18,60 @@
   </head>
   <body>
     <header class="cabecalho">
-      <article class="logo"><img src="" alt="" /></article>
-      <article><button>Login</button></article>
-      <article><button>Search</button></article>
+      <div class="logo__container">
+        <img class="logo__img" src="./public/imgs/Logo.png" alt="" />
+      </div>
+      <nav class="navbar">
+        <button class="btn light__btn">Login</button>
+      </nav>
+      <nav class="navbar">
+        <button class="search__btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </nav>
     </header>
+    <section class="container__hero">
+      <div class="text__hero">
+        <h1 class="title__hero">Dezembro Promocional</h1>
+        <h3 class="subtitle__hero">
+          Produtos selecionados com 33% de desconto
+        </h3>
+        <button class="btn blue__btn">Ver Consoles</button>
+      </div>
+    </section>
+    <section class="products__section" data-product>
+      <div class="text__product">
+        <h1 class="linha__title">Star Wars</h1>
+        <a class="link__product" href="#"
+          >Ver tudo <i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+      <div class="product__container">
+        <div class="product">
+          <img class="product__img" src="./public/imgs/product1.png" alt="product">
+          <p class="product__name">Caneca Stormtrooper</p>
+          <p class="product__price">R$65,00</p>
+          <a class="link__product" href="#">Ver produto</a>
+        </div>
+        <div class="product">
+          <img class="product__img" src="./public/imgs/product2.png" alt="product">
+          <p class="product__name">Mascara Darth Vader</p>
+          <p class="product__price">R$120,00</p>
+          <a class="link__product" href="#">Ver produto</a>
+        </div>
+        <div class="product">
+          <img class="product__img" src="./public/imgs/product3.png" alt="product">
+          <p class="product__name">Boneco Yoda</p>
+          <p class="product__price">R$135,00</p>
+          <a class="link__product" href="#">Ver produto</a>
+        </div>
+        <div class="product">
+          <img class="product__img" src="./public/imgs/product4.png" alt="product">
+          <p class="product__name">Armadura Stormtrooper</p>
+          <p class="product__price">R$575,00</p>
+          <a class="link__product" href="#">Ver produto</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneca Stormtrooper",
+      "description": "Caneca para seu café diário.",
+      "price": 65,
+      "imgUrl": "./public/imgs/product1.png",
+      "section": "Star Wars",
+      "alt": "product"
+    },
+    {
+      "id": 2,
+      "name": "Mascara Darth Vader",
+      "description": "Sinta-se um vilão!",
+      "price": 120,
+      "imgUrl": "./public/imgs/product2.png",
+      "section": "Star Wars",
+      "alt": "product"
+    },
+    {
+      "id": 3,
+      "name": "Boneco Yoda",
+      "description": "Colecione nossa coleção",
+      "price": 135,
+      "imgUrl": "./public/imgs/product3.png",
+      "section": "Star Wars",
+      "alt": "product"
+    },
+    {
+      "id": 4,
+      "name": "Armadura Stormtrooper",
+      "description": "Colecione nossa coleção",
+      "price": 575,
+      "imgUrl": "./public/imgs/product4.png",
+      "section": "Star Wars",
+      "alt": "product"
+    }
+  ]
+}

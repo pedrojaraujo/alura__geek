@@ -12,6 +12,10 @@
   --largefontsize: 32px;
   --xlargefontsize: 52px;
 
+  /* Font-weigh */
+  --mediumfontweight: 600;
+  --largefontweight: 700;
+
   /* Colors */
   --black: #464646;
   --blue: #2a7ae4;
@@ -25,4 +29,35 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--fontfamilydefault);
+}
+
+.btn {
+  font-family: var(--fontfamilydefault);
+  font-weight: var(--mediumfontweight);
+  width: 133px;
+  height: 40px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn.light__btn {
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+
+.btn.blue__btn {
+  background: var(--blue);
+  border: none;
+  color: var(--withe);
+}
+
+.search__btn {
+  color: var(--black);
+  background: transparent;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
 }
