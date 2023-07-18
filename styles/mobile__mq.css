@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cabecalho {
     box-sizing: border-box;
     width: 100%;
@@ -16,6 +16,16 @@
 
   .search__btn {
     font-size: 24px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .serching__container {
+    display: none;
   }
 
   .container__hero {
