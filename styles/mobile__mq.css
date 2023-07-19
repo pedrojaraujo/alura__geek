@@ -96,7 +96,6 @@
     text-decoration: none;
     font-weight: var(--largefontweight);
     color: var(--blue);
-    white-space: 10px;
   }
 
   .text__product {

@@ -127,7 +127,7 @@
 
   .linha__title {
     color: var(--black);
-    font-size: var(--mediumfontsize);
+    font-size: var(--largefontsize);
   }
 
   .link__product {
@@ -135,7 +135,6 @@
     text-decoration: none;
     font-weight: var(--largefontweight);
     color: var(--blue);
-    white-space: 10px;
   }
 
   .text__product {
@@ -152,7 +151,7 @@
   }
 
   .product__img {
-    width: 156px;
+    width: 176px;
     height: 174px;
   }
 
