@@ -2,16 +2,16 @@
   .cabecalho {
     box-sizing: border-box;
     width: 100%;
-    height: 72px;
-    padding: 16px;
+    height: 115px;
+    gap: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 
   .logo__img {
-    width: 100px;
-    height: 28px;
+    width: 176px;
+    height: 50px;
   }
 
   .btn__tablet__search {
@@ -26,7 +26,8 @@
   }
 
   .btn.light__btn {
-    width: 166px;
+    width: 182px;
+    height: 51px;
   }
 
   .btn.blue__btn {
@@ -34,7 +35,7 @@
   }
 
   .serching__container {
-    width: 272px;
+    width: 393px;
     height: 40px;
     background-color: var(--lightgray);
     color: var(--gray);
@@ -47,16 +48,19 @@
 
   .searching__field {
     background: transparent;
+    border: none;
   }
 
   .navbar {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     width: 100%;
   }
 
   .container__hero {
+    display: flex;
+    justify-content: flex-end;
     color: var(--withe);
     box-sizing: border-box;
     width: 100%;
@@ -71,8 +75,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    align-items: end;
+    border: 1px solid red;
   }
 
   .text__hero {
@@ -80,10 +83,11 @@
     flex-direction: column;
     justify-content: flex-end;
     padding: 0;
-    width: 704px;
+    width: 1136px;
+    margin: auto auto 0 auto;
     line-height: 0;
     gap: 16px;
-    height: 159px;
+    height: 170px;
   }
 
   .text__hero .blue__btn {
@@ -102,6 +106,7 @@
   }
 
   .products {
+    display: contents;
     height: 360px;
   }
 
@@ -110,6 +115,8 @@
     flex-direction: column;
     justify-content: center;
     padding: 32px;
+    width: 1136px;
+    margin: auto;
   }
 
   .text__product {
@@ -138,11 +145,10 @@
   .product__container {
     display: grid;
     justify-content: space-between;
-    width: 704px;
-    height: 358px;
+    width: 1136px;
+    height: 306px;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-    margin: auto;
   }
 
   .product__img {
@@ -165,21 +171,23 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 364px;
+    height: 368px;
     background-color: var(--lightblue);
   }
 
   .about__container {
     display: flex;
-    align-items: start;
-    width: 704px;
-    height: 300px;
+    width: 1136px;
+    height: 240px;
     margin: auto;
+    align-items: baseline;
   }
 
   .about__nav__container {
-    width: 254px;
+    display: flex;
+    width: 500px;
     height: 300px;
+    justify-content: space-around;
   }
 
   .about__links {
@@ -200,7 +208,7 @@
     flex-direction: column;
     align-self: start;
     gap: 16px;
-    width: 434px;
+    width: 560px;
     height: 300px;
     margin: auto;
   }

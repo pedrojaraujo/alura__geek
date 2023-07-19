@@ -102,7 +102,8 @@
   }
 
   .products {
-    height: 360px;
+    display: contents;
+    height: 306px;
   }
 
   .products__section {
@@ -139,7 +140,6 @@
     display: grid;
     justify-content: space-between;
     width: 704px;
-    height: 358px;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
     margin: auto;
