@@ -8,6 +8,7 @@
   /* Font-size */
   --smallfontsize: 14px;
   --normalfontsize: 16px;
+  --xnormalfontsize: 18px;
   --mediumfontsize: 22px;
   --largefontsize: 32px;
   --xlargefontsize: 52px;
@@ -53,9 +54,20 @@ textarea {
 input {
   border: none;
   border-bottom: 1px solid var(--lightgray);
+  padding-inline: 15px;
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
 }
 
 .btn {
+  justify-content: center;
   font-family: var(--fontfamilydefault);
   font-weight: var(--mediumfontweight);
   width: 133px;

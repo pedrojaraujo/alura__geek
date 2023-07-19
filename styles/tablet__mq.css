@@ -211,4 +211,44 @@
   textarea {
     height: 82px;
   }
+
+  .p__rodape {
+    font-size: var(--normalfontsize);
+  }
+
+  .login__page__container {
+    display: flex;
+    height: 600px;
+    background-color: var(--lightgray);
+  }
+
+  .form__input {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 275px;
+    margin: auto;
+    gap: 16px;
+  }
+
+  .login__title {
+    font-size: var(--xnormalfontsize);
+  }
+
+  .input__email__login {
+    height: 41px;
+    background-color: var(--withe);
+  }
+
+  .input__password__login {
+    height: 41px;
+    background-color: var(--withe);
+  }
+
+  .btn.blue__btn.login__btn {
+    width: 50%;
+    margin-inline: auto;
+    height: 40px;
+    font-size: var(--smallfontsize);
+  }
 }
