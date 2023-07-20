@@ -131,6 +131,7 @@
   }
 
   .link__product {
+    margin-inline: 5px;
     align-items: center;
     text-decoration: none;
     font-weight: var(--largefontweight);
