@@ -21,7 +21,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .product__container__home {
-
     background-color: var(--lightgray);
   }
 
@@ -67,6 +66,6 @@
   }
 
   .products {
-   height: auto;/
-}
+    height: auto;
+  }
 }
