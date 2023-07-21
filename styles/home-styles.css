@@ -68,4 +68,8 @@
   .products {
     height: auto;
   }
+
+  .btn.light__btn {
+    font-size: var(--smallfontsize);
+  }
 }

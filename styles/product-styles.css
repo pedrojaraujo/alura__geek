@@ -1,0 +1,130 @@
+@media screen and (min-width: 1025px) {
+  .product__description {
+    display: flex;
+    width: 1136px;
+    height: 550px;
+    margin: auto;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .product__container__home {
+    align-items: center;
+    gap: 50px;
+  }
+
+  .descripton__product__title {
+    margin: 0;
+    font-size: var(--xlargefontsize);
+  }
+
+  .text__product {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 560px;
+  }
+
+  .img__product {
+    width: 560px;
+    height: 403px;
+  }
+
+  .linha__title {
+    margin-block: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .product__description {
+    display: flex;
+    width: 768px;
+    height: 250px;
+    margin: auto;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .product__container__home {
+    align-items: center;
+    gap: 50px;
+  }
+
+  .descripton__product__title {
+    margin: 0;
+    font-size: var(--mediumfontsize);
+  }
+
+  .text__product {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 434px;
+  }
+
+  .descripton__product__p {
+    font-size: var(--smallfontsize);
+  }
+
+  .img__product {
+    width: 264px;
+    height: 157px;
+  }
+
+  .linha__title {
+    margin-block: 0;
+  }
+
+  .product:nth-child(4),
+  .product:nth-child(5) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .product__description {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: auto;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .product__container__home {
+    align-items: center;
+    gap: 50px;
+  }
+
+  .descripton__product__title {
+    margin: 0;
+    font-size: var(--mediumfontsize);
+  }
+
+  .text__product {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 328px;
+  }
+
+  .descripton__product__p {
+    font-size: var(--smallfontsize);
+  }
+
+  .img__product {
+    width: 360px;
+  }
+
+  .linha__title {
+    margin-block: 0;
+  }
+
+  .product:nth-child(4),
+  .product:nth-child(5) {
+    display: none;
+  }
+}

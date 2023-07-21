@@ -8,9 +8,19 @@
     font-size: var(--largefontsize);
   }
 
-  .btn.blue__btn.login__btn {
-    font-size: var(--normalfontsize);
+  .btn.blue__btn {
+    width: 100%;
+    height: 51px;
     font-weight: var(--lightfontweight);
+    font-size: var(--normalfontsize);
+  }
+
+  .description__product {
+    height: 82px;
+    padding: 15px;
+    &:focus {
+      outline: none;
+    }
   }
 }
 
@@ -25,11 +35,19 @@
     font-size: var(--largefontsize);
   }
 
-  .btn.blue__btn.login__btn {
+  .btn.blue__btn {
     width: 100%;
     height: 51px;
     font-weight: var(--lightfontweight);
     font-size: var(--normalfontsize);
+  }
+
+  .description__product {
+    height: 82px;
+    padding: 15px;
+    &:focus {
+      outline: none;
+    }
   }
 }
 
@@ -44,10 +62,15 @@
     font-size: var(--mediumfontsize);
   }
 
-  .btn.blue__btn.login__btn {
+  .btn.blue__btn {
     width: 100%;
     height: 51px;
     font-weight: var(--lightfontweight);
     font-size: var(--normalfontsize);
+  }
+
+  .btn.light__btn.menu__btn {
+    width: 166px;
+    font-size: var(--smallfontsize);
   }
 }
