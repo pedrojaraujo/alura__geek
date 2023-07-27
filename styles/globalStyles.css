@@ -27,6 +27,8 @@
   --lightgray: #f5f5f5;
   --lightblue: #eaf2fd;
   --withe: #ffffff;
+  --lightgreen: #f0fff0;
+  --wrong: #ffc0cb;
 }
 
 body {
@@ -52,6 +54,10 @@ textarea {
   resize: none;
   border: none;
   border-bottom: 1px solid var(--lightgray);
+  padding-inline: 15px;
+  &:focus {
+    outline: none;
+  }
 }
 
 input {
@@ -66,10 +72,15 @@ input {
 a {
   display: flex;
   text-decoration: none;
-  align-items: center;
+  justify-content: start;
+  font-family: var(--fontfamilydefault);
+  font-weight: var(--mediumfontweight);
+  width: 133px;
 }
 
 .btn {
+  display: flex;
+  align-items: center;
   justify-content: center;
   font-family: var(--fontfamilydefault);
   font-weight: var(--mediumfontweight);
@@ -119,4 +130,21 @@ a {
 
 i {
   margin-left: 5px;
+}
+
+.mensagemDeSucesso {
+  padding: 10px;
+  text-align: center;
+  font-family: var(--fontfamilydefault);
+  font-size: var(--smallfontsize);
+  background-color: var(--lightgreen);
+}
+
+.mensagemDeErro {
+  padding: 10px;
+  text-align: center;
+  font-family: var(--fontfamilydefault);
+  font-size: var(--smallfontsize);
+  background-color: var(--wrong);
+  margin: 0;
 }

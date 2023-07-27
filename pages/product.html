@@ -151,21 +151,33 @@
               <li><a href="#">Anuncie aqui</a></li>
             </ul>
           </div>
-          <div class="contact__container">
+          <form class="contact__container">
             <h3>Fale conosco</h3>
-            <input type="text" placeholder="Nome" />
+            <input
+              id="namePerson"
+              type="text"
+              placeholder="Nome"
+              maxlength="40"
+              required
+            />
             <textarea
+              id="messageFromPerson"
               cols="30"
               rows="5"
               placeholder="Escreva sua mensagem"
+              maxlength="120"
+              required
             ></textarea>
-            <button class="btn blue__btn">Eviar mensagem</button>
-          </div>
+            <button class="btn blue__btn" id="btn__message" type="submit">
+              Eviar mensagem
+            </button>
+          </form>
         </section>
       </section>
       <footer class="rodape">
         <p class="p__rodape">Desenvolvido por Pedro Joaquim 2023 &#169;</p>
       </footer>
     </main>
+    <script src="../services/send_message.js"></script>
   </body>
 </html>

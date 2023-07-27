@@ -45,13 +45,18 @@
         <h1 class="login__title">Iniciar Sessão</h1>
         <input
           class="input__email__login"
-          type="text"
+          type="email"
           placeholder="Escreva seu email"
+          required
+          maxlength="50"
         />
         <input
           class="input__password__login"
-          type="text"
+          type="password"
           placeholder="Escreva sua senha"
+          required
+          minlength="8"
+          maxlength="50"
         />
         <button class="btn blue__btn login__btn">Entrar</button>
       </form>
@@ -70,20 +75,33 @@
             <li><a href="#">Anuncie aqui</a></li>
           </ul>
         </div>
-        <div class="contact__container">
+        <form class="contact__container">
           <h3>Fale conosco</h3>
-          <input type="text" placeholder="Nome" />
+          <input
+            id="namePerson"
+            type="text"
+            placeholder="Nome"
+            maxlength="40"
+            required
+          />
           <textarea
+            id="messageFromPerson"
             cols="30"
             rows="5"
             placeholder="Escreva sua mensagem"
+            maxlength="120"
+            required
           ></textarea>
-          <button class="btn blue__btn">Eviar mensagem</button>
-        </div>
+          <button class="btn blue__btn" id="btn__message" type="submit">
+            Eviar mensagem
+          </button>
+        </form>
       </section>
     </section>
     <footer class="rodape">
       <p class="p__rodape">Desenvolvido por Pedro Joaquim 2023 &#169;</p>
     </footer>
+    <script src="../services/login__validation.js"></script>
+    <script src="../services/send_message.js"></script>
   </body>
 </html>
