@@ -1,4 +1,7 @@
 @media screen and (min-width: 1025px) {
+  .products__section {
+    height: 1050px;
+  }
   .product__container__home {
     background-color: var(--lightgray);
   }
@@ -20,6 +23,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .text__product {
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .products__section {
+    height: 1650px;
+  }
   .product__container__home {
     background-color: var(--lightgray);
   }
@@ -32,7 +42,6 @@
 
   .product__container {
     display: grid;
-    justify-content: space-between;
     width: 704px;
     height: auto;
     grid-template-columns: repeat(4, 1fr);

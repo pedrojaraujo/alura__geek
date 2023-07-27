@@ -1,4 +1,8 @@
 @media screen and (min-width: 1025px) {
+  .products__section {
+    height: 420px;
+  }
+
   .product__description {
     display: flex;
     width: 1136px;
@@ -30,13 +34,14 @@
     width: 560px;
     height: 403px;
   }
-
-  .linha__title {
-    margin-block: 0;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .products__section {
+    display: grid;
+    height: 360px;
+  }
+
   .product__description {
     display: flex;
     width: 768px;
@@ -71,10 +76,6 @@
   .img__product {
     width: 264px;
     height: 157px;
-  }
-
-  .linha__title {
-    margin-block: 0;
   }
 
   .product:nth-child(4),
