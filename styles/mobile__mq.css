@@ -214,4 +214,7 @@
     height: 40px;
     font-size: var(--smallfontsize);
   }
+  .new__file__product {
+    background-color: var(--withe);
+  }
 }

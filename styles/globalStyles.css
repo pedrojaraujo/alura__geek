@@ -28,7 +28,8 @@
   --lightblue: #eaf2fd;
   --withe: #ffffff;
   --lightgreen: #f0fff0;
-  --wrong: #ffc0cb;
+  --wrong: #ffe4e7;
+  --darkred: #8b0000;
 }
 
 body {
@@ -138,6 +139,7 @@ i {
   font-family: var(--fontfamilydefault);
   font-size: var(--smallfontsize);
   background-color: var(--lightgreen);
+  color: darkgreen;
 }
 
 .mensagemDeErro {
@@ -147,4 +149,5 @@ i {
   font-size: var(--smallfontsize);
   background-color: var(--wrong);
   margin: 0;
+  color: var(--darkred);
 }

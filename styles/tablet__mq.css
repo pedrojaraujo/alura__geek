@@ -251,4 +251,10 @@
     height: 40px;
     font-size: var(--smallfontsize);
   }
+
+  .new__file__product {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: var(--withe);
+  }
 }

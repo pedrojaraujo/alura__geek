@@ -1,6 +1,7 @@
 @media screen and (min-width: 1025px) {
   .form__input {
-    height: 491px;
+    text-align: start;
+    height: 550px;
   }
 
   .login__title {
@@ -26,8 +27,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .form__input {
+    text-align: start;
     width: 80%;
-    height: 491px;
+    height: 550px;
   }
 
   .login__title {
@@ -53,6 +55,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .form__input {
+    text-align: start;
     width: 90%;
     height: 491px;
   }
@@ -73,4 +76,8 @@
     width: 166px;
     font-size: var(--smallfontsize);
   }
+}
+
+label {
+  font-size: var(--smallfontsize);
 }

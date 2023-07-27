@@ -45,39 +45,30 @@
     <div class="login__page__container">
       <form class="form__input">
         <h1 class="login__title">Adicionar novo produto</h1>
+        <label for="new__file__product">Selecione uma imagem</label>
+        <input class="new__file__product" type="file" required />
         <input
-          class="input__email__login"
-          type="url"
-          placeholder="Url da imagem"
-          required
-        />
-        <input
-          class="input__password__login"
+          class="category__product"
           type="text"
           placeholder="Categoria"
           required
         />
         <input
-          class="input__password__login"
+          class="new__name__product"
           type="text"
           placeholder="Nome do produto"
+          maxlength="20"
           required
         />
         <input
-          class="input__password__login"
-          type="text"
+          class="new__price__product"
+          type="number"
           placeholder="Preço do produto"
           required
         />
-        <input
-          class="input__password__login"
-          type="text"
-          placeholder="Descrição do produto"
-          required
-        />
         <textarea
-          class="description__product"
-          cols="30"
+          class="new__description__product"
+          maxlength="150"
           placeholder="Descrição do produto"
           required
         ></textarea>

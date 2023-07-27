@@ -1,9 +1,14 @@
 const name = document.getElementById("namePerson");
 const message = document.getElementById("messageFromPerson");
-const button = document.getElementById("btn__message");
+const messageButton = document.getElementById("btn__message");
 const form = document.getElementsByClassName("contact__container")[0];
 
 let previousMessage;
+
+const resetFormFields = () => {
+  name.value = "";
+  message.value = "";
+};
 
 const sucessMessage = (e) => {
   e.preventDefault();
@@ -16,17 +21,18 @@ const sucessMessage = (e) => {
     const successPara = document.createElement("p");
     successPara.textContent = "Mensagem enviada com sucesso!";
     successPara.classList.add("mensagemDeSucesso");
-    button.replaceWith(successPara);
+    messageButton.replaceWith(successPara);
     previousMessage = successPara;
+    resetFormFields();
   } else {
     const errorPara = document.createElement("p");
     errorPara.textContent = "Ocorreu erro de preenchimento do formulário.";
     errorPara.classList.add("mensagemDeErro");
-    form.insertBefore(errorPara, button);
+    form.insertBefore(errorPara, messageButton);
     previousMessage = errorPara;
   }
 };
 
-button.addEventListener("click", (e) => {
+messageButton.addEventListener("click", (e) => {
   sucessMessage(e);
 });
