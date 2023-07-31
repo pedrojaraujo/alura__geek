@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
 
 const firebaseConfig = {
