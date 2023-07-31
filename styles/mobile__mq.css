@@ -72,7 +72,7 @@
   }
 
   .products {
-    height: 600px;
+    height: 380px;
   }
 
   .products__section {
@@ -103,7 +103,11 @@
     margin-bottom: 16px;
   }
 
-  .product__container {
+  .product__container,
+  .product__container__starwars,
+  .product__container__gadget,
+  .product__container__consoles,
+  .product__container__similar {
     display: grid;
     justify-content: center;
     width: 328px;
@@ -117,6 +121,19 @@
     height: 249px;
     line-height: 5px;
   }
+
+  .product__container__starwars > :nth-child(n + 3) {
+    display: none;
+  }
+
+  .product__container__consoles > :nth-child(n + 3) {
+    display: none;
+  }
+
+  .product__container__gadget > :nth-child(n + 3) {
+    display: none;
+  }
+
   .product__img {
     width: 156px;
     height: 174px;

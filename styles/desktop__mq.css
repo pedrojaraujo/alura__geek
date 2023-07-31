@@ -128,9 +128,11 @@
     color: var(--black);
     font-size: var(--largefontsize);
   }
+  .product {
+    line-height: 23px;
+  }
 
   .link__product {
-    margin-inline: 5px;
     align-items: center;
     text-decoration: none;
     font-weight: var(--largefontweight);
@@ -141,25 +143,32 @@
     margin-bottom: 16px;
   }
 
-  .product__container {
+  .product__container,
+  .product__container__starwars,
+  .product__container__gadget,
+  .product__container__consoles,
+  .product__container__similar {
     display: grid;
     justify-content: space-between;
     width: 1136px;
     height: 306px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 16px;
   }
 
   .product__img {
+    margin: 0;
     width: 176px;
     height: 174px;
   }
 
   .product__name {
+    margin: 0;
     font-size: var(--smallfontsize);
   }
 
   .product__price {
+    margin: 0;
     font-size: var(--normalfontsize);
     color: var(--black);
     font-weight: var(--largefontweight);

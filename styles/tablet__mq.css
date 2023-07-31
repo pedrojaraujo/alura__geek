@@ -114,6 +114,8 @@
 
   .text__product {
     display: flex;
+    width: 80%;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
   }
@@ -121,6 +123,10 @@
   .linha__title {
     color: var(--black);
     font-size: var(--mediumfontsize);
+  }
+
+  .product {
+    line-height: 23px;
   }
 
   .link__product {
@@ -134,25 +140,45 @@
     margin-bottom: 16px;
   }
 
-  .product__container {
+  .product__container,
+  .product__container__starwars,
+  .product__container__gadget,
+  .product__container__consoles,
+  .product__container__similar {
     display: grid;
     justify-content: space-between;
-    width: 704px;
-    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     margin: auto;
   }
 
+  .product__container__starwars > :nth-child(n + 4) {
+    display: none;
+  }
+
+  .product__container__consoles > :nth-child(n + 4) {
+    display: none;
+  }
+
+  .product__container__gadget > :nth-child(n + 4) {
+    display: none;
+  }
+
   .product__img {
-    width: 156px;
+    margin: 0;
+    width: 176px;
     height: 174px;
   }
 
   .product__name {
+    margin: 0;
     font-size: var(--smallfontsize);
   }
 
   .product__price {
+    margin: 0;
     font-size: var(--normalfontsize);
     color: var(--black);
     font-weight: var(--largefontweight);

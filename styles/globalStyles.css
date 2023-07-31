@@ -151,3 +151,90 @@ i {
   margin: 0;
   color: var(--darkred);
 }
+
+@media screen and (min-width: 1025px) {
+  .btn__deletar {
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 7rem;
+    bottom: 11rem;
+    position: relative;
+    background: transparent;
+    border: none;
+    margin: 0;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .btn__editar {
+    width: 2rem;
+    height: 1.5rem;
+    left: 7.2rem;
+    bottom: 11rem;
+    position: relative;
+    background: transparent;
+    border: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .btn__deletar {
+    width: 1.5rem;
+    height: 1.5rem;
+    right: 4rem;
+    bottom: 9.4rem;
+    position: relative;
+    background: transparent;
+    border: none;
+    margin: 0;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .btn__editar {
+    width: 2rem;
+    height: 1.5rem;
+    left: 9rem;
+    bottom: 11rem;
+    position: relative;
+    background: transparent;
+    border: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .btn__deletar {
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 6rem;
+    bottom: 10rem;
+    position: relative;
+    background: transparent;
+    border: none;
+    margin: 0;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .btn__editar {
+    width: 2rem;
+    height: 1.5rem;
+    left: 6rem;
+    bottom: 10rem;
+    position: relative;
+    background: transparent;
+    border: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
