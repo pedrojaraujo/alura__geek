@@ -49,7 +49,7 @@ function renderIndex() {
 
         const productLink = document.createElement("a");
         productLink.classList.add("link__product");
-        productLink.href = "./product.html"; // Substitua "product.html" pelo link correto
+        productLink.href = "./pages/home.html";
         productLink.textContent = "Ver produto";
 
         productDiv.appendChild(productImg);
@@ -108,7 +108,7 @@ function renderIndex() {
 
         const productLink = document.createElement("a");
         productLink.classList.add("link__product");
-        productLink.href = "./product.html"; // Substitua "product.html" pelo link correto
+        productLink.href = "./pages/home.html";
         productLink.textContent = "Ver produto";
 
         productDiv.appendChild(productImg);
@@ -167,7 +167,7 @@ function renderIndex() {
 
         const productLink = document.createElement("a");
         productLink.classList.add("link__product");
-        productLink.href = "./product.html"; // Substitua "product.html" pelo link correto
+        productLink.href = "./pages/home.html";
         productLink.textContent = "Ver produto";
 
         productDiv.appendChild(productImg);
